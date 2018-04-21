@@ -12,9 +12,8 @@ class CreateCostumes < ActiveRecord::Migration[4.2]
     create_table :costumes do |t|
       t.string :name
       t.integer :price
-      t.string :director
-      t.string :lead
-      t.boolean :in_theaters
+      t.string :image_url
+      t.string :size
     end
   end
 end
