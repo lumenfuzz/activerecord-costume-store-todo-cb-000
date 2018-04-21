@@ -10,7 +10,7 @@
 class CreateCostumes < ActiveRecord::Migration[4.2]
   def change
     create_table :costumes do |t|
-      t.string :title
+      t.string :name
       t.integer :release_date
       t.string :director
       t.string :lead
