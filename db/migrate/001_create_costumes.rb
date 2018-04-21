@@ -9,11 +9,12 @@
 # value types according to the spec
 class CreateCostumes < ActiveRecord::Migration[4.2]
   def change
-  create_table :costumes do |t|
-    t.string :title
-    t.integer :release_date
-    t.string :director
-    t.string :lead
-    t.boolean :in_theaters
+    create_table :costumes do |t|
+      t.string :title
+      t.integer :release_date
+      t.string :director
+      t.string :lead
+      t.boolean :in_theaters
+    end
   end
 end
